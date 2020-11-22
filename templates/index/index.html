@@ -1,0 +1,86 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}<title>Главная</title>{% endblock title %}
+
+{% block css %}<link type="text/css" rel="stylesheet" href="{% static "index/css/index.css" %}">{% endblock css %}
+{% block content %}
+    <div class="content" >
+    <table>
+    <tr class="text_table_">
+        <td>Уроки</td>
+        <td>Дз</td>
+    </tr>
+        <tr  class="text_table">
+    <td class="td-1">
+    <ul>
+    <li>
+        <a href="{% url 'react' %}">Less react 1</a>
+    </li>
+    <li>
+        <a href="{% url 'react2' %}">Less react 2</a>
+    </li>
+    <li>
+        <a href="{% url 'react3' %}">Less react 3</a>
+        </li>
+    <li>
+        <a href="{% url 'react4' %}">Less react 4</a>
+    </li>
+    <li>
+        <a href="{% url 'react5' %}">Less react 5</a>
+        </li>
+    <li>
+        <a href="{% url 'react6' %}">Less react 6</a>
+    </li>
+    <li>
+        <a href="{% url 'react7' %}">Less react 7</a>
+        </li>
+    <li>
+        <a href="{% url 'react8' %}">Less react 8</a>
+    </li>
+    <li>
+        <a href="{% url 'react9' %}">Less react 9</a>
+    </li>
+    </ul>
+    </td>
+
+        <td class="td-2">
+            <ul>
+                <li>
+                    <a href="{% url 'reactdz' %}">Home Work react 1</a>
+                </li>
+                <li>
+                    <a href="{% url 'reactdz2' %}">Home Work react 2</a>
+                </li>
+                <li>
+                    <a href="{% url 'reactdz3' %}">Home Work react 3</a>
+                </li>
+                <li>
+                    <a href="{% url 'reactdz4' %}">Home Work react 4</a>
+                </li>
+                <li>
+                    <a href="{% url 'reactdz5' %}">Home Work react 5</a>
+                </li>
+                <li>
+                    <a href="{% url 'reactdz6' %}">Home Work react 6</a>
+                </li>
+                <li>
+                    <a href="{% url 'reactdz7' %}">Home Work react 7</a>
+                </li>
+                <li>
+                    <a href="{% url 'reactdz8' %}">Home Work react 8</a>
+                </li>
+                <li>
+                    <a href="{% url 'reactdz9' %}">Home Work react 9</a>
+                </li>
+            </ul>
+        </td>
+        </tr>
+        <tr class="text_table_down">
+            <div><td>#</td>
+            <td> </td></div>
+        </tr>
+    </table>
+    </div>
+{% endblock %}
+{% block react %}<script type="text/babel" src="{% static "index/js/index.js" %}"></script>{% endblock react %}

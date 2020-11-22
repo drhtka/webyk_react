@@ -1,0 +1,19 @@
+.error{
+    border: 1px solid red;
+}
+.success{
+    border: 1px solid green;
+}
+
+.redd{
+    color: red;
+}
+
+.img_size{
+    height: 60px;
+    width: 80px;
+}
+
+.text-dz {
+    text-align: center;
+}

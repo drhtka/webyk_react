@@ -1,0 +1,42 @@
+.content {
+    width: 500px;
+    margin-left: 400px;
+    margin-top: 100px;
+}
+.text_table_{
+    text-align: center;
+
+}
+table {
+    border: 2px solid #5b80b2;
+    /*border-left: 2px solid cyan;*/
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+.td-1{
+    border-right: 2px solid red;
+    width: 180px;
+}
+
+.td-1 ul li{
+    margin-left: 10px;
+}
+
+td-2{
+    width: 180px;
+}
+.text_table .td-1 ul li a{
+    text-align: center;
+    margin-right: 15px;
+
+}
+
+.text_table .td-2 ul li a{
+    text-align: center;
+    margin-right: 15px;
+
+}
+
+.text_table_down{
+
+}
